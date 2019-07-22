@@ -24,9 +24,13 @@ The purpose of other functions can be easily understood from the context.
 ## 3. Warped cosine-modulated filter bank (+design example) 
 
 ### 3.1 Basic principle
-<img src="images/fig1_AP_transf.png" width="500">
+<img src="images/fig1_AP_transf.png" width="550">
+
+Warped cosine-modulated filter bank structure.
+<img src="images/warped CMFB_structure.png" width="600">
 
 ### 3.2 Filter prototype optimization
+Design example. 
 - 12-channel filter bank
 - Sampling frequency _fs_= 16 kHz
 - Subsampling factors _Sk_= [30  14  10  7  6  4  3  2  2  1  1  1]
@@ -41,7 +45,7 @@ The purpose of other functions can be easily understood from the context.
 #### Filter bank magnitude response
 <img src="images/WCMFB_mag.png" width="650">
 
-#### Group delya (analysis/synthesis)
+#### Group delay (analysis/synthesis)
 <img src="images/Group_delay.png" width="600">
 
 ## 4. Cite
